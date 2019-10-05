@@ -1,0 +1,117 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.reward{
+    text-decoration: underline;
+}
+
+li{
+    list-style-type: none;
+}
+
+.banner {
+    background-image: url(../images/banner_image.png);
+    background-color: white; 
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 38.65vh; 
+}
+
+.ba-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.ba-header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.ba-navigation{
+    display: flex; 
+}
+
+.menu_item{
+    text-transform: uppercase;
+    padding: 0 0 0 25px;
+    font-size: 0.875rem;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    text-shadow: 0px 0px 35px #000;
+}
+
+a:hover,
+a:focus{
+    color: #000;
+}
+
+.container{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h2{
+    font-family: 'Times New Roman', serif;
+    font-size: 1.875rem;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+    opacity: .7;
+    margin: 0;
+    text-shadow: 0px 0px 35px #000;
+}
+
+.banner_text_1{
+    font-size: 6.25rem;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin: 0;
+    text-shadow: 0px 0px 35px #000;
+}
+
+.banner_button{
+    display: inline-block;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    border: 2px solid #ffffff;
+    height: 65px;
+    line-height: 65px;
+    padding: 0 75px; 
+    font-weight: bold;
+    transition: .3; 
+    margin-top: 15px;
+    margin-bottom: 0;
+    letter-spacing: 0.025em;
+}
+
+.banner_button:hover,
+.banner_button:focus{
+    background-color:#ffffff; 
+    color: #000;
+}
+
+.banner_text_2{
+    font-size: 0.875rem;
+    color: #ffffff;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 240px;
+    letter-spacing: 0.05em;
+    opacity: .7;
+    text-shadow: 0px 0px 35px #000;
+}
