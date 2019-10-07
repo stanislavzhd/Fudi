@@ -57,7 +57,7 @@ a:focus{
 
 .container{
     width: 100%;
-    max-width: 1100px;
+    max-width: 1180px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -115,3 +115,82 @@ h2{
     opacity: .7;
     text-shadow: 0px 0px 35px #000;
 }
+
+/* start icons */
+
+.icons{
+    padding-top: 22.72vh;
+    padding-bottom: 22.07vh;
+}
+
+.icons_all{
+    display: flex;
+    text-align: center;
+    margin: 0;
+}
+
+.title{
+    font-size: 1.125rem;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 8px 0 0 0;
+}
+
+.icon_line{
+    margin: 0 0 8px 0;
+}
+
+.paragraph{
+    font-size: 1rem;
+    color: #000;
+    letter-spacing: 0.05em;
+    font-weight: lighter;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* end icons */
+
+/* start intro */
+
+.intro{
+    background-color: #f7f7f7; /*как узнать цвет из макета?*/
+}
+
+.intro_main{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.paragraph_main{
+    padding-left: 115px;
+    padding-top: 181px;
+}
+
+.paragraph2{
+    font-size: 1rem;
+    color: #000;
+    letter-spacing: 0.05em;
+    font-weight: lighter;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 32px;  
+}
+
+.intro_iphone{
+    padding-top: 100px;
+}
+
+.paragraph_additional{
+    display: flex;
+    padding: 0;
+}
+
+.app{
+    padding: 0 10px 0 0;
+}
+
+/* end intro */
