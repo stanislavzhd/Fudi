@@ -156,7 +156,8 @@ h2{
 /* start intro */
 
 .intro{
-    background-color: #f7f7f7; /*как узнать цвет из макета?*/
+    background-color: #f7f7f7; 
+    position: relative; 
 }
 
 .intro_main{
@@ -194,3 +195,148 @@ h2{
 }
 
 /* end intro */
+
+/* start feedback */
+
+.feedback_all{
+    background-image: url(../images/background.jpg);
+    position: relative;
+    z-index: 1;
+    bottom: 180px; 
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-color: rgb(74,57,73);
+}
+
+.face{
+    padding-top: 16vh;
+}
+
+.testimonial{
+    font-size: 1.5rem;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+    font-weight: lighter;
+    line-height: 2;
+    opacity: .2;
+    margin: 15px 0;
+}
+
+.feedback_person{
+    font-size: 1rem;
+    font-style: italic;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+    font-weight: lighter; 
+    opacity: .2;
+}
+
+.image_button{
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 15vh; 
+}
+
+/* end feedback */
+
+/* star menu */
+
+.menu_all{
+    position: relative;
+    bottom: 110px;
+    text-align: center;
+}
+
+.container_menu{
+    padding: 0;
+    margin: 0;
+    width: 100%; 
+}
+
+.menu-list{
+    padding: 15px 0 0 0;
+}
+
+.menu-list-all{
+    display: block;
+    padding: 0;
+    color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    font-size: 0;
+}
+
+.number{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-style: italic;
+    opacity: 0.7;
+    margin: 0;
+    padding: 70px 0 0 0;
+    letter-spacing: 0.05em;
+}
+
+.name{
+    font-size: 2.25rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 0.05em;
+}
+
+.all{
+    height: 220px;
+    display: inline-block;
+    width: 20%;
+    transition: all .1s ease-in;
+}
+
+.all:hover,
+.all:focus {
+    transition: all .1s ease-in;
+    opacity: .8;
+}
+
+.menu-list-item_1{
+    background-image: url(../images/italian.png);  
+}
+
+.menu-list-item_2{
+    background-image: url(../images/indian.png);
+}
+
+.menu-list-item_3{
+    background-image: url(../images/french.png);
+}
+
+.menu-list-item_4{
+    background-image: url(../images/steakhouse.png);
+}
+
+.menu-list-item_5{
+    background-image: url(../images/seafood.png);
+}
+
+.menu-list-item_6{
+    background-image: url(../images/sushi.png);
+}
+
+.menu-list-item_7{
+    background-image: url(../images/mexican.png);
+}
+
+.menu-list-item_8{
+    background-image: url(../images/chinese.png);
+}
+
+.menu-list-item_9{
+    background-image: url(../images/pizza.png);
+}
+
+.menu-list-item_10{
+    background-image: url(../images/american.png);
+}
+/* end menu */
