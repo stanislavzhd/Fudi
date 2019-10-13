@@ -135,7 +135,7 @@ h2{
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    margin: 8px 0 0 0;
+    margin: 0;
 }
 
 .icon_line{
@@ -201,8 +201,6 @@ h2{
 .feedback_all{
     background-image: url(../images/background.jpg);
     position: relative;
-    z-index: 1;
-    bottom: 180px; 
     text-align: center;
     background-size: cover;
     background-position: center center;
@@ -245,7 +243,6 @@ h2{
 
 .menu_all{
     position: relative;
-    bottom: 110px;
     text-align: center;
 }
 
@@ -253,10 +250,11 @@ h2{
     padding: 0;
     margin: 0;
     width: 100%; 
+    padding-top: 10vh; 
 }
 
 .menu-list{
-    padding: 15px 0 0 0;
+    padding: 30px 0 0 0;
 }
 
 .menu-list-all{
@@ -339,4 +337,76 @@ h2{
 .menu-list-item_10{
     background-image: url(../images/american.png);
 }
+
+.information{
+    display: block;
+    margin: 50px 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.data-information{
+    display: inline-block;
+    width: 20%;
+}
+
+.data-number{
+    font-size: 2.25rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    margin: 0;
+}
+
+.data-text{
+    font-size: 1rem;
+    color: #000;
+    letter-spacing: 0.05em;
+    font-weight: lighter;
+    margin: 0;
+}
+
 /* end menu */
+
+/* start footer */
+
+.footer{
+    background-color: #f7f7f7;
+    position: relative;
+    padding: 20px 0;
+}
+
+.ba-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.left-text{
+    font-size: 0.875rem;
+    color: #000;
+    letter-spacing: 0.05em;
+    font-weight: lighter;
+    margin: 0;
+    opacity: 0.4;
+}
+
+.right-text{
+    font-size: 0.875rem;
+    color: #000;
+    letter-spacing: 0.20em;
+    font-weight: lighter;
+    opacity: 0.5;
+}
+
+a.footer_link{
+    font-size: 0.875rem;
+    color: #000;
+    letter-spacing: 0.20em;
+    font-weight: bold;
+}
+
+a.footer_link:hover{
+    color: red;
+}
+
+/* end footer */
